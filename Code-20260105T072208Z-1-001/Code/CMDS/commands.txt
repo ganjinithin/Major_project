@@ -1,0 +1,15 @@
+(folder) :
+python batch_process.py --input datasets/Bicycle --model m  
+
+
+images : 
+ python main.py --input "datasets/ZJU_example.jpg" --mode image --model m
+
+
+video :
+
+python main.py --input "C:\Users\bantu\OneDrive\Desktop\Project\2053100-uhd_3840_2160_30fps.mp4" --mode video --model m
+
+live : 
+
+python main.py --input 0 --mode video --model m
